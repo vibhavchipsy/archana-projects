@@ -1,50 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&display=swap');
 
 * {
-    font-family: 'Sora', sans-serif;
+  font-family: "Sora", sans-serif;
 }
 
 h2 {
-    font-weight: 400;
-    font-size: 32px;
+  font-weight: 400;
+  font-size: 32px;
 }
 
 p {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .font-color-white {
-    color: white;
+  color: white;
 }
 
 .font-color-highlight {
-    color: #FF3436;
+  color: #ff3436;
 }
 
 .bg-color-highlight {
-    background-color: #FF3436;
+  background-color: #ff3436;
 }
 
 .text-justified {
-    text-align: justify;
+  text-align: justify;
 }
 
 .line-height-30 {
-    line-height: 30px;
+  line-height: 30px;
 }
 
 @media (min-width: 768px) {
-    h2 {
-        font-size: 42px;
-    }
+  h2 {
+    font-size: 42px;
+  }
 
-    p {
-        font-size: 20px;
-    }
+  p {
+    font-size: 20px;
+  }
 
-    .boxed-container {
-        width: 1170px;
-        margin: 0 auto;
-    }
+  .boxed-container {
+    width: 1170px;
+    margin: 0 auto;
+  }
 }
