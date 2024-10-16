@@ -38,7 +38,6 @@
 
 .about-quadrant .quadrant {
     flex-direction: column;
-    padding: 30px 30px 30px 30px;
 }
 
 .quadrant {
@@ -56,6 +55,10 @@
 .quadrant:hover .count,
 .quadrant:hover .label {
     color: var(--font-color-white);
+}
+
+.about-quadrant .quadrant-img:hover {
+    background-color: unset;
 }
 
 .top-left {
@@ -99,7 +102,7 @@
     }
 
     .about-text {
-        width: 60%;
+        width: 58%;
     }
 
     .about-quadrant {
