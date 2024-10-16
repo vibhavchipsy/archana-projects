@@ -73,8 +73,29 @@ p {
   }
 }
 
+.swiper-pagination-bullet {
+  color: white;
+}
+
+.swiper-pagination-bullet {
+  padding: 0 5px;
+  padding-bottom: 12px;
+  border-radius: 0 !important;
+}
+
+.swiper-pagination-bullet-active {
+  color: black;
+  background-color: white !important;
+}
+
 @media (min-width: 1280px) {
   .mobile-padding {
     padding: 0px;
+  }
+
+  .swiper-pagination {
+    text-align: end !important;
+    left: -40px;
+    bottom: 20px;
   }
 }

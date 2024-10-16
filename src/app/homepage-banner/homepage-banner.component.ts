@@ -16,9 +16,9 @@ export class HomepageBannerComponent implements AfterViewInit {
       const swiper = new Swiper('.swiper', {
         modules: [Navigation, Pagination],
         loop: true,
-        autoplay: {
-          delay: 500,
-        },
+        // autoplay: {
+        //   delay: 500,
+        // },
         navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
