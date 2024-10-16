@@ -12,5 +12,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vh;
+  height: 100vh;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  display: none;
 }
