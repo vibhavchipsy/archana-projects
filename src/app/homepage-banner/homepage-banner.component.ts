@@ -1,6 +1,9 @@
 import { Component, AfterViewInit } from '@angular/core';
 import { Navigation, Pagination } from 'swiper/modules';
 import Swiper from 'swiper';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 @Component({
   selector: 'app-homepage-banner',
@@ -16,7 +19,7 @@ export class HomepageBannerComponent implements AfterViewInit {
         modules: [Navigation, Pagination],
         loop: true,
         autoplay: {
-          delay: 1000,
+          delay: 500,
         },
         navigation: {
           nextEl: '.swiper-button-next',
