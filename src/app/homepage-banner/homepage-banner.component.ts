@@ -1,9 +1,7 @@
 import { Component, AfterViewInit } from '@angular/core';
 import { Navigation, Pagination } from 'swiper/modules';
-import Swiper from 'swiper';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+import Swiper from 'swiper/bundle';
+import 'swiper/css/bundle';
 
 @Component({
   selector: 'app-homepage-banner',
