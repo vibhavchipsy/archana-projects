@@ -3,21 +3,25 @@
     justify-content: space-between;
     background-color: #f9f9f9;
     flex-direction: column;
+    align-items: center;
 }
 
 .about-text h2 {
-    margin-bottom: 15px;
+    margin: 0px;
+    margin-top: 88px;
 }
 
 .about-text p {
     margin-bottom: 20px;
 }
 
+.about-text span {
+    color: var(--bg-color-highlight);
+}
+
 .know-more-btn {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #fff;
     border: none;
-    padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
 }
@@ -34,14 +38,24 @@
 
 .about-quadrant .quadrant {
     flex-direction: column;
+    padding: 30px 30px 30px 30px;
 }
-
 
 .quadrant {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.quadrant:hover {
+    background-color: var(--bg-color-highlight);
+}
+
+.quadrant:hover .count,
+.quadrant:hover .label {
+    color: var(--font-color-white);
 }
 
 .top-left {
@@ -62,12 +76,12 @@
 
 .about-quadrant .count {
     font-size: 45px;
+    color: var(--font-color-highlight);
 }
 
 .about-quadrant .label {
     font-size: 22px;
 }
-
 
 @media (min-width: 768px) {
     .about-quadrant .count {
@@ -89,7 +103,8 @@
     }
 
     .about-quadrant {
-        width: 30%;
+        width: 35%;
+        height: 100%;
     }
 
 }

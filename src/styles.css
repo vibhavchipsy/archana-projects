@@ -4,6 +4,12 @@
   font-family: "Sora", sans-serif;
 }
 
+:root {
+  --bg-color-highlight: #ff3436;
+  --font-color-highlight: #ff3436;
+  --font-color-white: #fff;
+}
+
 body {
   margin: 0;
 }
@@ -17,24 +23,16 @@ p {
   font-size: 16px;
 }
 
-.font-color-white {
-  color: white;
-}
-
-.font-color-highlight {
-  color: #ff3436;
-}
-
-.bg-color-highlight {
-  background-color: #ff3436;
-}
-
 .text-justified {
   text-align: justify;
 }
 
 .line-height-30 {
   line-height: 30px;
+}
+
+.mobile-padding {
+  padding: 0px 15px;
 }
 
 @media (min-width: 768px) {
